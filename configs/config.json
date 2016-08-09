@@ -58,7 +58,7 @@
       {
         "type": "MoveToFort",
         "config": {
-            "lure_attraction": true,
+            "lure_attraction": false,
             "lure_max_distance": 2000
         }
       },
@@ -75,7 +75,7 @@
       "avoid_circles": true,
       "max_circle_size": 50
     },
-    "websocket_server": false,
+    "websocket_server": true,
     "walk": 4.16,
     "action_wait_min": 1,
     "action_wait_max": 4,
@@ -95,7 +95,7 @@
       "// Rattata": { "always_catch" : true }
     },
     "release": {
-      "any": {"release_below_cp": 200, "release_below_iv": 0.9, "logic": "or"},
+      "any": {"release_below_cp": 0, "release_below_iv": 0.9, "logic": "or"},
       "// Example of always releasing Rattata:": {},
       "// Rattata": {"always_release": true},
       "// Example of keeping 3 stronger (based on CP) Pidgey:": {},
